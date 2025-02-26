@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/Home.css";
+import "../styles/home.css";
 import SplitText from "../components/SplitText";
 import MyPhoto from "../assets/MyPhoto.png";
 
