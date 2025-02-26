@@ -1,0 +1,37 @@
+body {
+  background-color: black;
+  color: rgb(86, 141, 190);
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;      }
+
+/* Full-screen particle container */
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  z-index: -1;
+}
+
+#root {
+  position: relative;
+  z-index: 1; /* Ensures it's above the particles */
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* Example content */
+.section {
+  margin-bottom: 40px;
+  padding: 20px;
+  background: rgb(97, 141, 180);
+  border-radius: 8px;
+}
+
+.section h2 {
+  margin-top: 0;
+}
