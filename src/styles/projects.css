@@ -76,6 +76,8 @@
 }
 
 .toggle-button {
+  pointer-events: auto !important;
+  cursor: pointer !important;
   display: block;
   margin: 20px auto 0;
   padding: 10px 20px;
@@ -84,7 +86,6 @@
   border-radius: 4px;
   color: #fff;
   font-size: 1rem;
-  cursor: pointer;
   transition: background 0.3s ease, box-shadow 0.3s ease;
 }
 

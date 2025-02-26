@@ -37,16 +37,18 @@ function Projects() {
           </div>
         ))}
       </div>
+    
       {projectsList.length > 2 && (
-        <button
-        className="toggle-button"
-        onClick={() => {
-          console.log("Bouton cliqué !");
-          setShowAll(!showAll);
-        }}
-      >
-        {showAll ? "Voir moins -" : "Voir plus +"}
-      </button>
+       <button
+            className="toggle-button"
+            onClick={() => {
+              console.log("Bouton cliqué !");
+              setShowAll(!showAll);  // Inverse l'état de showAll
+            }}
+          >
+            {showAll ? "Voir moins -" : "Voir plus +"}
+       </button>
+     
       
       )}
     </section>
