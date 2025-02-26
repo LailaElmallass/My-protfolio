@@ -14,8 +14,8 @@ const projectsList = [
   {
     title: "Portfolio Perso",
     description: "Mon portfolio personnel, développé avec React pour présenter mes projets et compétences.",
-    liveLink: "https://lailaelmallass.github.io/portfolio",
-    githubLink: "https://github.com/LailaElmallass/portfolio.git",
+    liveLink: "https://miiprotfolio-baywa8bbo-lailaelmallass-projects.vercel.app",
+    githubLink: "https://github.com/LailaElmallass/My-protfolio.git",
   },
   {
     title: "Gestion des Cours",
