@@ -39,11 +39,15 @@ function Projects() {
       </div>
       {projectsList.length > 2 && (
         <button
-          className="toggle-button"
-          onClick={() => setShowAll(!showAll)}
-        >
-          {showAll ? "Voir moins -" : "Voir plus +"}
-        </button>
+        className="toggle-button"
+        onClick={() => {
+          console.log("Bouton cliqué !");
+          setShowAll(!showAll);
+        }}
+      >
+        {showAll ? "Voir moins -" : "Voir plus +"}
+      </button>
+      
       )}
     </section>
   );

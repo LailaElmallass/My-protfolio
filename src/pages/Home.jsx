@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import "../styles/home.css";
 import SplitText from "../components/SplitText";
 import MyPhoto from "../assets/MyPhoto.png";
+import Projects from "./Projects";
+import About from "./About";
+import Contact from "./Contact";
 
 const handleAnimationComplete = () => {
   console.log("All letters have animated!");
@@ -10,6 +13,7 @@ const handleAnimationComplete = () => {
 
 const Home = () => {
   return (
+    <>
     <section className="hero">
       <div className="hero-content">
         <div className="hero-img">
@@ -63,7 +67,12 @@ const Home = () => {
           </div>
         </div>
       </div>
+     
     </section>
+    <Projects />
+    <About />
+    <Contact />
+    </>
   );
 };
 
