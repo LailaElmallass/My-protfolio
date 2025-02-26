@@ -1,14 +1,11 @@
 {
   "name": "my_portfolio",
-  "homepage": "https://LailaElmallass.github.io/My-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
