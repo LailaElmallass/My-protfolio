@@ -1,7 +1,7 @@
 .contact-container {
   color: #fff;
   margin: 2rem auto;
-  width: 95%;
+  width: 90%;
   max-width: 800px; /* Plus étroit que projects pour un formulaire lisible */
   border: 1px solid #00bcd4;
   border-radius: 10px;
