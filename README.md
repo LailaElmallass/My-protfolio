@@ -22,11 +22,11 @@ Ce template supporte deux plugins officiels de Vite pour React :
 ### 🚀 Installation  
 Clonez ce dépôt :  
 ```sh
-git clone <repository-url>
+git clone (https://github.com/LailaElmallass/My-protfolio.git)
 ```
 Accédez au dossier du projet :  
 ```sh
-cd <project-folder>
+cd My_portfolio
 ```
 Installez les dépendances :  
 ```sh
