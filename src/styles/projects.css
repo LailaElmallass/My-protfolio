@@ -4,7 +4,8 @@
   padding: 20px;
   /* background: #1a1a1a; */
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 188, 212, 0.5);
+  animation: fadeIn 0.5s ease-in-out;
+  box-shadow: 1px 1px 10px #00bcd4, -1px -1px 10px #00bcd4;
   color: #fff;
 }
 

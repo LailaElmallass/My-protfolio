@@ -12,9 +12,9 @@ const projectsList = [
     githubLink: "https://github.com/LailaElmallass/Gestion_livres_laravel",
   },
   {
-    title: "Portfolio Perso",
+    title: "Mon Portfolio",
     description: "Mon portfolio personnel, développé avec React pour présenter mes projets et compétences.",
-    liveLink: "https://miiprotfolio-baywa8bbo-lailaelmallass-projects.vercel.app",
+    liveLink: "https://monprotfolio-git-main-lailaelmallass-projects.vercel.app",
     githubLink: "https://github.com/LailaElmallass/My-protfolio.git",
   },
   {

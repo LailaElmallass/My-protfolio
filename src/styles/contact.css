@@ -44,6 +44,8 @@
 
 .form-group input,
 .form-group textarea {
+  position: relative;
+  z-index: 20;
   background-color: transparent;
   color: #fff;
   border: 1px solid #00bcd4;
@@ -65,6 +67,8 @@
 }
 
 .submit-btn {
+  position: relative;
+  z-index: 20;
   background-color: transparent;
   color: #fff;
   border: 1px solid #00bcd4;

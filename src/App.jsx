@@ -19,10 +19,8 @@ function App() {
   return (
     <Router>
       {/* Particules en arrière-plan */}
-      <Particles
-        id="tsparticles"
-        init={particlesInit}
-        options={{
+      <Particles id="tsparticles" init={particlesInit} 
+      options={{
           background: {
             color: "#000",
           },
@@ -38,8 +36,9 @@ function App() {
               speed: 1,
             },
           },
-        }}
-      />
+        }} />
+        
+      
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
