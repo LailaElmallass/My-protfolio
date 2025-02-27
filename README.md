@@ -49,7 +49,7 @@ Les fichiers optimisés seront dans le dossier **dist**.
 
 ## 🌍 Démo en ligne  
 Vous pouvez voir une version déployée du projet ici :  
-🔗 **[monprotfolio-git-main-lailaelmallass-projects.vercel.app](https://monprotfolio-git-main-lailaelmallass-projects.vercel.app/)**  
+🔗 **(https://monportfolio-git-main-lailaelmallass-projects.vercel.app))**  
 
 ## 🎨 Personnalisation  
 - **ESLint** : Modifiez les règles dans `.eslintrc.js` selon vos préférences.  
