@@ -3,7 +3,8 @@
   color: #fff;
   margin-top: 4rem;
   margin-left: 10rem;
-  width: 90%;
+  max-width: 1200px;
+  margin: 40px auto;
   border: 1px solid #00bcd4;
   border-radius: 5px;
   padding: 2rem;
