@@ -24,12 +24,13 @@ function Navbar() {
         <Link to="/" onClick={() => setIsOpen(false)} className="nav-link" style={{color:'#00bcd4'}}>
           <i className="fas fa-home"></i> Accueil
         </Link>
-        <Link to="/projects" onClick={() => setIsOpen(false)} className="nav-link" style={{color:'#00bcd4'}}>
-          <i className="fas fa-project-diagram"></i> Projets
-        </Link>
         <Link to="/about" onClick={() => setIsOpen(false)} className="nav-link" style={{color:'#00bcd4'}}>
           <i className="fas fa-user"></i> À propos
         </Link>
+        <Link to="/projects" onClick={() => setIsOpen(false)} className="nav-link" style={{color:'#00bcd4'}}>
+          <i className="fas fa-project-diagram"></i> Projets
+        </Link>
+        
         <Link to="/contact" onClick={() => setIsOpen(false)} className="nav-link" style={{color:'#00bcd4'}}>
           <i className="fas fa-envelope"></i> Contact
         </Link>
