@@ -7,7 +7,6 @@ import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import { Particles } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim"; // Remplace @tsparticles/engine par @tsparticles/slim
-import Footer from "./components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles/global.css";
 
@@ -42,11 +41,11 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
         <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      <Footer />
+     
     </Router>
   );
 }

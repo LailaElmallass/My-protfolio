@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/contact.css";
+import Footer from "../components/Footer";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -23,6 +24,7 @@ function Contact() {
   };
 
   return (
+    <div>
     <div className="contact-container">
       <h1>Contactez-moi 📬</h1>
       <p>Envoyez-moi un message pour discuter de vos projets ou idées !</p>
@@ -68,6 +70,12 @@ function Contact() {
         </button>
       </form>
     </div>
+<br /><br /><br /><hr />
+
+<span>
+<p className="text-center" style={{color:"#dddddd"}}>© 2025 Laila EL MALLASS. All Rights Reserved. 🌸</p>
+</span>
+</div>
   );
 }
 
